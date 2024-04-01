@@ -14,4 +14,5 @@ $stmt->bind_param("ssss", $username, $name, $mobile, $password);
 $stmt->execute();
 
 echo 'ذخیره شد.';
+header('Location: ../index.php');
 }
